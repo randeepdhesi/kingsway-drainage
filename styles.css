@@ -303,8 +303,8 @@ h3 { font-size: 1.2rem; font-weight: 700; }
 
 @media (max-width: 640px) {
   .nav__inner { flex-wrap: wrap; gap: 10px; }
-  .nav__links { gap: 14px; font-size: 0.82rem; flex-wrap: wrap; }
-  .nav__phone { font-size: 0.85rem; }
+  .nav__links { gap: 10px; font-size: 0.82rem; flex-direction: column; width: 100%; }
+  .nav__phone { font-size: 0.85rem; width: 100%; text-align: center; }
   .service-strip { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .section { padding: 40px 0; }
