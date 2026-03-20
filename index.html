@@ -13,7 +13,6 @@
   <nav class="nav">
     <div class="nav__inner">
       <a href="index.html" class="nav__brand">
-        <img src="images/logo.png" alt="Kingsway logo">
         Kingsway Plumbing & Drainage
       </a>
       <ul class="nav__links">
@@ -24,19 +23,17 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <a href="tel:6043626621" class="nav__phone">604-362-6621</a>
+      <button class="nav-hamburger" aria-label="Toggle menu" onclick="this.closest('.nav').classList.toggle('nav--open')"><span></span><span></span><span></span></button>
     </div>
   </nav>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero__text container" style="padding-left: 24px;">
+    <div class="hero__content">
       <p class="label">We Clean, Restore & Protect</p>
       <h1>Kingsway<br>Plumbing &<br>Drainage</h1>
       <p>Greater Vancouver's trusted drainage specialists.<br>Call today for a free estimate.</p>
       <a href="tel:6043626621" class="btn btn--red">Get a Free Estimate &rarr; 604-362-6621</a>
-    </div>
-    <div class="hero__image">
-      <img src="images/logo.png" alt="Kingsway Plumbing & Drainage">
     </div>
   </section>
 
@@ -71,6 +68,78 @@
       <h2>Greater Vancouver's Drainage Experts</h2>
       <p>With years of hands-on experience across the Lower Mainland, Kingsway Plumbing & Drainage brings professional-grade equipment and honest workmanship to every job — from a simple blocked drain to a full perimeter drainage system.</p>
       <a href="services.html" class="btn btn--outline">View Our Services &rarr;</a>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat__num">500+</div>
+          <div class="stat__label">Jobs Completed</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">10+</div>
+          <div class="stat__label">Years Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">100%</div>
+          <div class="stat__label">Licensed & Insured</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section section--alt">
+    <div class="container">
+      <p class="label">What We Do</p>
+      <h2 style="margin-bottom: 32px;">Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Drain Clearing</h3>
+          <p>Blocked or slow drains cleared quickly and thoroughly — from kitchen sinks and floor drains to main sewer lines. We get it flowing again the same day.</p>
+        </div>
+        <div class="service-card">
+          <h3>Water Lines</h3>
+          <p>Full water line repair and replacement for leaks, low pressure, or aging pipes. Residential supply lines and underground service connections across Greater Vancouver.</p>
+        </div>
+        <div class="service-card">
+          <h3>Perimeter Drainage / Wet Basement</h3>
+          <p>We excavate, install new drain tile, gravel beds, and waterproofing membrane to keep your foundation dry for the long term.</p>
+        </div>
+        <div class="service-card">
+          <h3>Video Drain Inspection</h3>
+          <p>Camera inspection down your drain lines identifies root intrusion, pipe collapse, offset joints, or buildup — before we dig, saving you time and money.</p>
+        </div>
+        <div class="service-card">
+          <h3>Water Jet Drain Flushing</h3>
+          <p>High-pressure water jetting cuts through grease, scale, and debris that drain snakes can't touch — restoring full flow and leaving pipe walls clean.</p>
+        </div>
+        <div class="service-card service-card--cta">
+          <h3>Ready to book?</h3>
+          <p>Call us today for a free estimate on any job, big or small.</p>
+          <a href="tel:6043626621">604-362-6621 &rarr;</a>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top: 40px;">
+        <a href="services.html" class="btn btn--outline">See All Services &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO PREVIEW -->
+  <section class="section">
+    <div class="container">
+      <p class="label">Recent Work</p>
+      <h2 style="margin-bottom: 32px;">From the Job Site</h2>
+      <div class="gallery-grid gallery-grid--home">
+        <div class="gallery-grid__item ghp-1"><img src="images/van-street.jpeg" alt="Kingsway van"></div>
+        <div class="gallery-grid__item ghp-2"><img src="images/job-07.jpeg" alt="Drainage work"></div>
+        <div class="gallery-grid__item ghp-3"><img src="images/job-13.jpeg" alt="Drainage work"></div>
+        <div class="gallery-grid__item ghp-4"><img src="images/job-05.jpeg" alt="Drainage work"></div>
+        <div class="gallery-grid__item ghp-5"><img src="images/job-08.jpeg" alt="Drainage work"></div>
+        <div class="gallery-grid__item ghp-6"><img src="images/van-site.jpeg" alt="Kingsway on site"></div>
+        <div class="gallery-grid__item ghp-7"><img src="images/job-11.jpeg" alt="Drainage work"></div>
+      </div>
+      <div style="text-align:center; margin-top: 32px;">
+        <a href="gallery.html" class="btn btn--outline">View Full Gallery &rarr;</a>
+      </div>
     </div>
   </section>
 
@@ -95,7 +164,7 @@
       <a href="contact.html">Contact</a>
     </div>
     <p class="footer__area">Serving Greater Vancouver</p>
-    <p class="footer__area"><a href="tel:6043626621" style="color:var(--red);">604-362-6621</a> &nbsp;|&nbsp; <a href="mailto:info@kingswayplumbing.ca">info@kingswayplumbing.ca</a></p>
+    <p class="footer__area"><a href="tel:6043626621" style="color:var(--red);">604-362-6621</a> &nbsp;|&nbsp; <a href="mailto:info@kingswayplumbing.ca" class="footer__email">info@kingswayplumbing.ca</a></p>
     <p class="footer__copy">&copy; 2026 Kingsway Plumbing & Drainage. All rights reserved.</p>
   </footer>
 
