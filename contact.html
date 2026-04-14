@@ -13,7 +13,7 @@
   <nav class="nav">
     <div class="nav__inner">
       <a href="index.html" class="nav__brand">
-        <img src="images/logo.png" alt="Kingsway logo">
+
         Kingsway Plumbing & Drainage
       </a>
       <ul class="nav__links">
@@ -24,6 +24,7 @@
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
       <a href="tel:6043626621" class="nav__phone">604-362-6621</a>
+      <button class="nav-hamburger" aria-label="Toggle menu" onclick="this.closest('.nav').classList.toggle('nav--open')"><span></span><span></span><span></span></button>
     </div>
   </nav>
 
@@ -74,9 +75,7 @@
 
         <div class="contact-form">
           <h3>Send Us a Message</h3>
-          <!-- Note: This form is HTML only. To receive submissions, connect a form service
-               such as Formspree (formspree.io) — replace the action attribute with your endpoint. -->
-          <form action="#" method="POST">
+          <form action="https://formspree.io/f/xzdyzype" method="POST">
             <div class="form-group">
               <label for="name">Your Name</label>
               <input type="text" id="name" name="name" placeholder="Jane Smith" required>

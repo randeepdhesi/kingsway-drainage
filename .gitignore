@@ -1,0 +1,34 @@
+.vercel
+
+# macOS
+.DS_Store
+
+# Original unprocessed photos (not used by site)
+*.uuid.jpeg
+306C5151-*.jpeg
+3EF4C2BF-*.jpeg
+45C8174D-*.jpeg
+4AFF0E2F-*.jpeg
+4EA3F0AE-*.jpeg
+606CDD32-*.jpeg
+69514D67-*.jpeg
+75AF8E8F-*.jpeg
+8E55C4AC-*.jpeg
+9E63B255-*.jpeg
+9FAC3BF2-*.jpeg
+A7487C18-*.jpeg
+B0029023-*.jpeg
+B0A32B9B-*.jpeg
+C6401F30-*.jpeg
+D00E593D-*.jpeg
+D6943B5A-*.jpeg
+D71AD6E1-*.jpeg
+DA3B3F9C-*.jpeg
+IMG_2423.jpeg
+IMG_2575.jpeg
+IMG_2580.jpeg
+Kingsway.png
+
+# Dev tooling
+.superpowers/
+docs/superpowers/
